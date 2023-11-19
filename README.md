@@ -233,3 +233,17 @@ src/renderer/src/views/profile/basic/components/profile-item.vue
 const result:any = [];
 ```
 
+
+## 4. 构建项目
+
+1. 安装module 
+npm install
+
+2. 测试
+npm run dev
+
+3. 打包
+npm run build:mac
+npm run build:linux
+npm run build:windows
+
