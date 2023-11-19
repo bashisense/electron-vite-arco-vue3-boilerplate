@@ -6,6 +6,10 @@ npm i electron-vite -D
 2. 创建项目
 npm create @quick-start/electron
 
+>
+> 如果在墙内，需要在命令行配置proxy，否则npm install会卡住
+> 最好所有选项全部选 yes
+>
 
 ## 2. 创建arco.design项目
 1. 准备环境
@@ -243,7 +247,9 @@ npm install
 npm run dev
 
 3. 打包
-npm run build:mac
-npm run build:linux
-npm run build:windows
 
+npm run build:mac
+
+npm run build:linux
+
+npm run build:windows
